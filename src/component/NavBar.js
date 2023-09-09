@@ -23,10 +23,7 @@ export class NavBar extends Component {
     componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
     }
-    handleSearch(e){
-        const value = e.target.value;
-        console.log();
-    }
+    
 
     
 
